@@ -7,7 +7,7 @@ body {
   margin:0 auto;
   padding: 1em;
   font-size: 100%;
-  background-image: url('unsplash.png');
+  background-image: url(background.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
