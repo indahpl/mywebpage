@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Welcome To My Blog</title>
+<link rel="stylesheet" href="stylesheet.css">
+<link rel="icon" href="favicon.png" sizes="16x16" type="image/png">
+</head>
+
+<body>
+  <!-- <header> untuk <body> element - header utama -->
+  <header id="header" role="banner">
+  <h1>Let's Study With Me</h1>
+  <!-- <nav> navigasi -->
+  <nav role="navigation">
+    <ul>
+      <li><a href="#">Artikel Terbaru</a></li>
+      <li><a href="#">Artikel Populer</a></li>
+      <li><a href="#">Penulis</a></li>
+      <li><a href="#">Hubungi Kami</a></li>
+    </ul>
+  </nav>
+  </header>
+
+  <!-- <main> element -->
+  <main id="content" class="group" role="main">
+
+    <!-- <article> element -->
+    <article id="post" role="article">
+    <!-- <header> untuk <article> element -->
+      <header>
+        <h2>Virus Corona</h2>
+        <p>sumber: alodokter.com,
+        <time datetime="2020-08-06T13:00">06 Agustus 2020, pkl. 13:00</time>
+        </p>
+      </header>
+        <p style="text-align:justify;">
+        <b>Virus Corona atau severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) adalah virus yang menyerang sistem pernapasan. Penyakit karena infeksi virus ini disebut COVID-19. Virus Corona bisa menyebabkan gangguan ringan pada sistem pernapasan, infeksi paru-paru yang berat, hingga kematian.</b>
+        </p>
+        <p style="text-align:justify;">
+        Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) yang lebih dikenal dengan nama virus Corona adalah jenis baru dari coronavirus yang menular ke manusia. Virus ini bisa menyerang siapa saja, seperti lansia (golongan usia lanjut), orang dewasa, anak-anak, dan bayi, termasuk ibu hamil dan ibu menyusui.</p>
+    </article>
+
+     <!-- <aside> untuk <article> element -->
+    <aside>
+      <img src="virus.jpg" width="400">
+      <dl style="text-align:justify;">
+        <dt><b>Tingkat Kematian Akibat Virus Corona (COVID-19)</b></dt>
+        <dt>Virus Corona yang menyebabkan COVID-19 bisa menyerang siapa saja. Menurut data yang dirilis Gugus Tugas Percepatan Penanganan COVID-19 Republik Indonesia, jumlah kasus terkonfirmasi positif hingga 05 Agustus 2020 adalah 115.056 orang dengan jumlah kematian 5.388 orang. Tingkat kematian (case fatality rate) akibat COVID-19 adalah sekitar 4,7%.
+        Jika dilihat dari persentase angka kematian yang di bagi menurut golongan usia, maka lansia memiliki persentase tingkat kematian yang lebih tinggi dibandingkan golongan usia lainnya.
+        Sedangkan berdasarkan jenis kelamin, 59,5% penderita yang meninggal akibat COVID-19 adalah laki-laki dan 40,5% sisanya adalah perempuan.</dt>
+      </dl>
+      <dl style="text-align:justify;">
+        <dt><b>Gejala Virus Corona (COVID-19)</b></dt>
+        <dt>Gejala awal infeksi virus Corona atau COVID-19 bisa menyerupai gejala flu, yaitu demam, pilek, batuk kering, sakit tenggorokan, dan sakit kepala. Setelah itu, gejala dapat hilang dan sembuh atau malah memberat. Penderita dengan gejala yang berat bisa mengalami demam tinggi, batuk berdahak bahkan berdarah, sesak napas, dan nyeri dada. Gejala-gejala tersebut muncul ketika tubuh bereaksi melawan virus Corona.
+        Secara umum, ada 3 gejala umum yang bisa menandakan seseorang terinfeksi virus Corona, yaitu:</dt>
+        <ol type="1">
+          <li>Demam (suhu tubuh di atas 38 derajat Celsius)</li>
+          <li>Batuk kering</li>
+          <li>Sesak napas</li>
+        </ol>
+      </dl>
+      <dl>
+        <dt>Ada beberapa gejala lain yang juga bisa muncul pada infeksi virus Corona meskipun lebih jarang, yaitu:</dt>
+          <ol type="1">
+            <li>Diare</li>
+            <li>Sakit kepala</li>
+            <li>Konjungtivitis</li>
+            <li>Hilangnya kemampuan mengecap rasa atau mencium bau</li>
+            <li>Ruam di kulit</li>
+          </ol>
+        <dt>Gejala-gejala COVID-19 ini umumnya muncul dalam waktu 2 hari sampai 2 minggu setelah penderita terpapar virus Corona.</dt>
+      </dl>
+    </aside>
+
+     <!-- <section> untuk <article> element -->
+    <section>
+      <h3>Komentar</h3>
+      <p>Berkomentarlah dengan sopan</p>
+      <!-- article> pada <section> element - komentar user menggunakan <article> -->
+      <article>
+       <!-- article header -->
+        <header>
+          <h4>Sherly Saprilita</h4>
+          <p><em><time datetime="2020-08-07T16:00">07 Agustus 2020, pkl. 16:00</time></em></p>
+        </header>
+        <p>Terima Kasih. Sangat informatif!</p>
+        <!-- article footer -->
+        <footer>
+          <p><a href="#" rel="nofollow">Sherly Blog</a></p>
+        </footer>
+      </article>
+
+      <!-- <article> pada <section> element - komentar user menggunakan <article> -->
+      <article>
+        <header>
+          <h4>Muhammad Rizky</h4>
+          <p><em><time datetime="2020-08-07T20:00">07 Agustus 2020, pkl. 20:00</time></em></p>
+        </header>
+        <p>Pentingnya edukasi mengenai virus corona. Terima kasih</p>
+        <footer>
+          <p><a href="#" rel="nofollow">Rizky Blog</a></p>
+        </footer>
+      </article>
+    </section>
+
+  </article>
+</main>
+
+<!-- <aside> pada <body> element -->
+<aside id="sidebar" role="complementary">
+  <img src="indah0000.jpg" width="200" height=auto>
+  <h3>Biodata</h3>
+  <ul>
+    <li>Nama  : Indah Putri Lestari</a></li>
+    <li>TTL   : Palembang, 31 Desember 1999</a></li>
+    <li>Hobi  : Menulis Puisi </a></li>
+    <li><a href="https://www.instagram.com/indahputrilestari21/" alt="">Instagram : @indahputrilestari21</a></li>
+    <li><a href="https://www.facebook.com/indah.putrilestari.94/" alt="">Facebook : Indah Putri Lestari</a></li>
+  </ul>
+</aside>
+
+<!-- <footer> pada <body> element -->
+<footer id="footer" role="contentinfo">
+  <p>© 2020 Indah Putri Lestari. All Rights Reserved.</p>
+  <ul>
+    <li><a href="https://www.alodokter.com/virus-corona">Home</a></li>
+    <li><a href="/p/about.html">About</a></li>
+    <li><a href="/p/copyright.html">Copyright</a></li>
+    <li><a href="/p/privacy.html">Privacy</a></li>
+  </ul>
+</footer>
+
+</body>
+</html>
